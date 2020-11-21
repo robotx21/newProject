@@ -1,3 +1,9 @@
 // This is a test
 
-console.log('Hello World')
+function greeting(name) {
+  console.log(`Hello ${name}!`);
+}
+
+greeting("Mike");
+
+console.log("Hello World");
